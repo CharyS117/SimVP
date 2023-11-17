@@ -1,5 +1,6 @@
 __pycache__
 results/
+.vscode/
 *.npy
 *.npz
 *.gz
