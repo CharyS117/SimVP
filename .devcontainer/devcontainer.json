@@ -1,9 +1,8 @@
-
 {
     "name": "SimVP",
     "image": "docker.io/pytorch/pytorch:2.1.0-cuda12.1-cudnn8-devel",
     "runArgs": [
-        "--gpus", "all"
+        "--name", "simvp-dev", "--gpus", "all"
     ],
     "updateContentCommand": "bash .devcontainer/install-dev-tools.sh",
     "postCreateCommand": [
